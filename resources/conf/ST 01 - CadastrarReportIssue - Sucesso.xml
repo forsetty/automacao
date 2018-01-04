@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="mantis" >
+	
+	<!-- Planilhas com massa de dados -->
+	<parameter name="dataFilePath" value="..\automacao-mantis\resources\data" />
+
+	<test verbose="2" name="ST 01 - CadastrarReportIssue - Sucesso">
+		<classes>
+			<class name="scripts.CadastrarReportIssueTest" />
+		</classes>
+	</test> 
+
+</suite>
